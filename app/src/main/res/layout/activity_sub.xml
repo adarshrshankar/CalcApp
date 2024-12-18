@@ -1,0 +1,90 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#bdc3c7"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBTRACT"
+        android:textColor="#0D0E10"
+        android:layout_marginBottom="20dp"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        >
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INPUT1"
+        android:textColor="#0D0E10"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        >
+
+    </TextView>
+    <EditText
+        android:id="@+id/inpu1"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:background="@color/white"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp">
+
+    </EditText>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#0D0E10"
+        android:text="INPUT2"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        >
+
+    </TextView>
+    <EditText
+        android:id="@+id/inpu2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:inputType="number"
+        android:background="@color/white"
+        android:layout_marginBottom="20dp">
+
+    </EditText>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sub"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="SUB"
+        android:layout_marginBottom="20dp">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/gotohome"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="GO TO HOME"
+        android:layout_marginBottom="20dp">
+
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <TextView
+        android:id="@+id/Res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="30dp">
+
+    </TextView>
+</LinearLayout>

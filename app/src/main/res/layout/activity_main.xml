@@ -29,6 +29,7 @@
     </androidx.appcompat.widget.AppCompatButton>
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sub"
         android:layout_width="150dp"
         android:layout_height="100dp"
         android:layout_marginTop="20dp"
@@ -37,6 +38,7 @@
     </androidx.appcompat.widget.AppCompatButton>
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/mul"
         android:layout_width="150dp"
         android:layout_marginTop="20dp"
         android:layout_height="100dp"
@@ -45,6 +47,7 @@
     </androidx.appcompat.widget.AppCompatButton>
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/div"
         android:layout_width="150dp"
         android:layout_height="100dp"
         android:layout_marginTop="20dp"
