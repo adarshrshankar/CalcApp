@@ -22,6 +22,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         b1=(Button)findViewById(R.id.add);
+        b2=(Button) findViewById(R.id.sub);
+        b3=(Button) findViewById(R.id.mul);
+        b4=(Button) findViewById(R.id.div);
 
 
         b1.setOnClickListener(new View.OnClickListener() {
